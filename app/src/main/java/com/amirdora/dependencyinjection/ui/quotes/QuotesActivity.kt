@@ -19,7 +19,6 @@ class QuotesActivity : AppCompatActivity(), KodeinAware {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_quotes)
 
         binding = ActivityQuotesBinding.inflate(layoutInflater)
         val view: View = binding!!.root
